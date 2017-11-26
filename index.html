@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>湘雅医院</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/topBar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script>
+        $(function() {
+            $(".sliders").slider();
+            $(".navBox").pullDown();
+        })
+    </script>
+</head>
+
+<body>
+    <!-- 顶部栏 -->
+    <div class="topBar">
+        <!-- 顶部logo和搜索栏 -->
+        <div class="topBox">
+            <a id="logo" class="fL oH" href="./index.html">中南大学湘雅医院</a>
+            <div class="searBox fR">
+                <input class="sear fL fS12" type="text" placeholder="搜索">
+                <button class="searBtn fL"></button>
+                <button class="advSearBtn fL oH">高级搜索</button>
+                <ul class="aUl fS12">
+                    <li><a class="fL fWB" href="javascript:void();">English</a></li>
+                    <li><a class="fL fWB" href="javascript:void();">OA系统</a></li>
+                    <li><a class="fL fWB" href="javascript:void();">官方微博</a></li>
+                    <li><a class="fL fWB" href="javascript:void();">返回主页</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 顶部logo和搜索栏结束 -->
+        <!-- 顶部导航栏 -->
+        <div class="nav fWB">
+            <ul class="navBox">
+                <li id="nav1" class="fL">
+                    <a href="#">医院概况</a>
+                    <div class="pulldown">
+                        <a href="#" class="fL">医院介绍</a>
+                        <a href="#" class="fL">领导团队</a>
+                        <a href="#" class="fL">历史沿革</a>
+                        <a href="#" class="fL">联系我们</a>
+                        <a href="#" class="fL">组织结构</a>
+                    </div>
+                </li>
+                <li id="nav2" class="fL">
+                    <a href="./xynews.html">湘雅新闻</a>
+                    <div class="pulldown">
+                        <a href="#" class="fL">医院介绍</a>
+                        <a href="#" class="fL">领导团队</a>
+                        <a href="#" class="fL">历史沿革</a>
+                        <a href="#" class="fL">联系我们</a>
+                        <a href="#" class="fL">组织结构</a>
+                    </div>
+                </li>
+                <li id="nav3" class="fL">
+                    <a href="./xybyfw.html">病友服务</a>
+                    <div class="pulldown">
+                        <a href="#" class="fL">医院介绍</a>
+                        <a href="#" class="fL">领导团队</a>
+                        <a href="#" class="fL">历史沿革</a>
+                        <a href="#" class="fL">联系我们</a>
+                        <a href="#" class="fL">组织结构</a>
+                    </div>
+                </li>
+                <li id="nav4" class="fL">
+                    <a href="#">科室导航</a>
+                    <div class="pulldown">
+                        <a href="#" class="fL">医院介绍</a>
+                        <a href="#" class="fL">领导团队</a>
+                        <a href="#" class="fL">历史沿革</a>
+                        <a href="#" class="fL">联系我们</a>
+                        <a href="#" class="fL">组织结构</a>
+                    </div>
+                </li>
+                <li id="nav5" class="fL">
+                    <a href="#">医学教育</a>
+                    <div class="pulldown">
+                        <a href="#" class="fL">医院介绍</a>
+                        <a href="#" class="fL">领导团队</a>
+                        <a href="#" class="fL">历史沿革</a>
+                        <a href="#" class="fL">联系我们</a>
+                        <a href="#" class="fL">组织结构</a>
+                    </div>
+                </li>
+                <li id="nav6" class="fL">
+                    <a href="#">医学研究</a>
+                    <div class="pulldown">
+                        <a href="#" class="fL">医院介绍</a>
+                        <a href="#" class="fL">领导团队</a>
+                        <a href="#" class="fL">历史沿革</a>
+                        <a href="#" class="fL">联系我们</a>
+                        <a href="#" class="fL">组织结构</a>
+                    </div>
+                </li>
+                <li id="nav7" class="fL">
+                    <a href="#">医院管理</a>
+                    <div class="pulldown">
+                        <a href="#" class="fL">医院介绍</a>
+                        <a href="#" class="fL">领导团队</a>
+                        <a href="#" class="fL">历史沿革</a>
+                        <a href="#" class="fL">联系我们</a>
+                        <a href="#" class="fL">组织结构</a>
+                    </div>
+                </li>
+                <li id="nav8" class="fL">
+                    <a href="#">护理风采</a>
+                    <div class="pulldown">
+                        <a href="#" class="fL">医院介绍</a>
+                        <a href="#" class="fL">领导团队</a>
+                        <a href="#" class="fL">历史沿革</a>
+                        <a href="#" class="fL">联系我们</a>
+                        <a href="#" class="fL">组织结构</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- 顶部导航栏结束 -->
+    </div>
+    <!-- 顶部栏结束 -->
+    <!-- 轮播图 -->
+    <div class="sliders oH">
+        <div class="slider1" style="display:none">
+            <img src="img/slider1.jpg" alt="">
+            <div class="intro">
+                <span class="title fL fWB">改革</span>
+                <span class="cont fL">大型政论专题片《将改革进行到底》</span>
+            </div>
+        </div>
+        <div class="slider2" style="display:none">
+            <img src="img/slider2.jpg" alt="">
+            <div class="intro">
+                <span class="title fL fWB">行风建设</span>
+                <span class="cont fL"></span>
+            </div>
+        </div>
+        <div class="slider3" style="display:none">
+            <img src="img/slider3.jpg" alt="">
+            <div class="intro">
+                <span class="title fL fWB">湘雅精神</span>
+                <span class="cont fL">公勇勤慎、诚爱谦廉、求真求确、必邃必专。</span>
+            </div>
+        </div>
+        <div class="slider4" style="display:none">
+            <img src="img/slider4.jpg" alt="">
+            <div class="intro">
+                <span class="title fL fWB">胡美</span>
+                <span class="cont fL">湘雅医院首任院长，1906年创办雅礼医院（湘雅医院前身）。</span>
+            </div>
+        </div>
+        <div class="slider5" style="display:none">
+            <img src="img/slider5.jpg" alt="">
+            <div class="intro">
+                <span class="title fL fWB">颜福庆</span>
+                <span class="cont fL">湘雅医学专门学校创始人，中华医学会第一任会长。</span>
+            </div>
+        </div>
+        <div class="slider6" style="display:block">
+            <img src="img/slider6.jpg" alt="">
+            <div class="intro">
+                <span class="title fL fWB">责任使命</span>
+                <span class="cont fL"></span>
+            </div>
+        </div>
+
+        <span id="btnToNext" class="btn fR toNextPic"></span>
+        <span id="btnToLast" class="btn fR toLastPic"></span>
+    </div>
+    <!-- 轮播图结束 -->
+    <!-- 主体部分 -->
+    <div class="main oH">
+        <!-- 左侧新闻栏 -->
+        <div class="newsBar fL">
+            <div class="news oH newsBox">
+                <div class="title oH">
+                    <a href="#" class="title fL fWB">湘雅新闻</a>
+                    <a href="#" class="more fR fWB fS12">更多新闻>></a>
+                </div>
+                <div class="cont">
+                    <img src="img/newsPic1.jpg" alt="" class="fL">
+                    <a href="#" class="newsTitle fWB">中南大学湘雅医院召开党风廉政建设暨行风建设全院视频大会</a>
+                    <p class="newsCont fS12">8月7日，中南大学湘雅医院召开党风廉政建设暨行风建设全院视频大会。全体在院院领导、全院5000余名职工，通过设在国际学术报告厅的主会场，以及设置在各临床、医技科室及护理单元的分会场，集中学习了国家9部委下发的《关于印发医用耗材专项整治活动方案的通...</p>
+                    <a href="#" class="more fR fS12">详细阅读>></a>
+                </div>
+            </div>
+            <div class="info oH newsBox">
+                <div class="notice fL">
+                    <div class="title oH">
+                        <a href="#" class="title fL fWB withAct">通知</a>
+                        <a href="#" class="title fL fWB withAct">公告</a>
+                    </div>
+                    <div class="notiCont oH">
+                        <ul id="info" class="oH">
+                            <li class="oH">
+                                <div class="date fL">
+                                    <p class="day">04</p>
+                                    <p class="month">08月</p>
+                                </div>
+                                <a href="#" class="notiTitle">中南大学湘雅医院第三届教授委员会拟聘任委员公示</a>
+                                <span class="time fR">10:22</span>
+                            </li>
+                            <li class="oH">
+                                <div class="date fL">
+                                    <p class="day">03</p>
+                                    <p class="month">08月</p>
+                                </div>
+                                <a href="#" class="notiTitle">招标公告</a>
+                                <span class="time fR">09:05</span>
+                            </li>
+                            <li class="oH">
+                                <div class="date fL">
+                                    <p class="day">02</p>
+                                    <p class="month">08月</p>
+                                </div>
+                                <a href="#" class="notiTitle">中南大学湘雅医院综合楼防水项目招标公告</a>
+                                <span class="time fR">16:23</span>
+                            </li>
+                            <li class="oH">
+                                <div class="date fL">
+                                    <p class="day">02</p>
+                                    <p class="month">08月</p>
+                                </div>
+                                <a href="#" class="notiTitle">电子阅览室家具采购项目中标候选人公示</a>
+                                <span class="time fR">10:50</span>
+                            </li>
+                            <li class="oH">
+                                <div class="date fL">
+                                    <p class="day">28</p>
+                                    <p class="month">07月</p>
+                                </div>
+                                <a href="#" class="notiTitle">中南大学湘雅医院8月份健康知识讲座安排</a>
+                                <span class="time fR">17:15</span>
+                            </li>
+                        </ul>
+                        <a href="#" class="more fR fS12">更多>></a>
+                    </div>
+                </div>
+                <div class="notice fR">
+                    <div class="title study oH">
+                        <a href="#" class="title fL fWB">学术交流</a>
+                    </div>
+                    <div class="notiCont oH">
+                        <ul id="info" class="oH">
+                            <li class="oH">
+                                <div class="date fL">
+                                    <p class="day">04</p>
+                                    <p class="month">07月</p>
+                                </div>
+                                <a href="#" class="notiTitle">医院质量与安全内部评价及品管圈实践培训班</a>
+                                <span class="time fR">15:11</span>
+                            </li>
+                            <li class="oH">
+                                <div class="date fL">
+                                    <p class="day">03</p>
+                                    <p class="month">06月</p>
+                                </div>
+                                <a href="#" class="notiTitle">中国医师协会脑胶质瘤专业委员会第一届青年委员会大会暨...</a>
+                                <span class="time fR">08:05</span>
+                            </li>
+                            <li class="oH">
+                                <div class="date fL">
+                                    <p class="day">07</p>
+                                    <p class="month">08月</p>
+                                </div>
+                                <a href="#" class="notiTitle">湘雅医院职业卫生高峰论坛</a>
+                                <span class="time fR">10:23</span>
+                            </li>
+                            <li class="oH">
+                                <div class="date fL">
+                                    <p class="day">01</p>
+                                    <p class="month">08月</p>
+                                </div>
+                                <a href="#" class="notiTitle">湘雅医院2017年世界母乳喂养周活动通知</a>
+                                <span class="time fR">11:29</span>
+                            </li>
+                            <li class="oH">
+                                <div class="date fL">
+                                    <p class="day">26</p>
+                                    <p class="month">07月</p>
+                                </div>
+                                <a href="#" class="notiTitle">湘雅学术沙龙：张军教授讲座——队列研究及常见问题</a>
+                                <span class="time fR">08:23</span>
+                            </li>
+                        </ul>
+                        <a href="#" class="more fR fS12">更多>></a>
+                    </div>
+                </div>
+            </div>
+            <ul class="otherNews oH">
+                <img src="img/lczk.jpg" alt="重点学科" class="fL">
+                <img src="img/xymy.jpg" alt="湘雅名医" class="fR">
+                <img src="img/yxzz.jpg" alt="医学期刊" class="fL">
+                <img src="img/zdxk.jpg" alt="重点学科" class="fR">
+            </ul>
+        </div>
+        <!-- 左侧新闻栏结束 -->
+        <!-- 右侧栏目 -->
+        <div class="serveBar oH fR">
+            <ul class="column fR oH">
+                <li><a href="#">党的建设</a></li>
+                <li><a href="#">医院文化</a></li>
+                <li><a href="#">院史陈列馆</a></li>
+                <li><a href="#">国际医疗部</a></li>
+                <li><a href="#">校友园地</a></li>
+                <li><a href="#">精品课程</a></li>
+                <li><a href="#">社会公益与医务社工</a></li>
+                <li><a href="#">专题活动</a></li>
+            </ul>
+            <div class="guide oH fR">
+                <ul>
+                    <a href="#" class="title">就医指南</a>
+                    <li class="fL oH">
+                        <a href="#" class="pic pic1 fL"></a>
+                        <a href="#" class="serName fL">门诊派班</a>
+                    </li>
+                    <li class="fL oH">
+                        <a href="#" class="pic pic2 fL"></a>
+                        <a href="#" class="serName fL">预约挂号</a>
+                    </li>
+                    <li class="fL oH">
+                        <a href="#" class="pic pic3 fL"></a>
+                        <a href="#" class="serName fL">就医流程</a>
+                    </li>
+                    <li class="fL oH">
+                        <a href="#" class="pic pic4 fL"></a>
+                        <a href="#" class="serName fL">疾病查询</a>
+                    </li>
+                    <li class="fL oH">
+                        <a href="#" class="pic pic5 fL"></a>
+                        <a href="#" class="serName fL">交通服务</a>
+                    </li>
+                    <li class="fL oH">
+                        <a href="#" class="pic pic6 fL"></a>
+                        <a href="#" class="serName fL">楼层分布</a>
+                    </li>
+                </ul>
+                <div class="contact oH">
+                    <dl>
+                        <dt><p class="atten">24小时咨询挂号服务</p></dt>
+                        <dd class="phone">电话：0731-89753999</dd>
+                        <dd class="qq">
+                            <span class="fL">QQ：</span>
+                            <span class="pic fL"><img src="img/button_121.gif" alt="QQ"></span>
+                            <span class="pic fL"><img src="img/button_121.gif" alt="QQ"></span>
+                            <span class="fL atten fS12">（非医疗咨询）</span>
+                        </dd>
+                        <dd class="weixin oH">
+                            <span class="fL">微信号：</span>
+                            <p href="#" class="fL atten fS12">湘雅医院病友服务中心</p>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="comSite oH">
+                <dl>
+                    <dt class="oH"><span class="title fL">常用站点</span><span class="more fR fS12 fWB">more</span></dt>
+                    <dd class="fL"><span><a href="#" class="fS12">国家卫生计生委</a></span><span class="fR"><a href="#" class="fS12">中南大学</a></span></dd>
+                    <dd class="fL"><span><a href="#" class="fS12">湖南省卫生计生委</a></span><span class="fR"><a href="#" class="fS12">湘雅医学院</a></span></dd>
+                    <dd class="fL"><span><a href="#" class="fS12">兄弟医院</a></span><span class="fR"><a href="#" class="fS12">院内子站</a></span></dd>
+                    <dd class="fL longSite"><a href="#" class="fS12">湖南省湘雅医学与健康基金会</a></dd>
+                </dl>
+            </div>
+        </div>
+        <!-- 右侧栏目结束 -->
+    </div>
+    <!-- 主体部分结束 -->
+    <!-- 底部 -->
+    <div class="footer oH">
+        <div class="record fL oH">
+            <img src="img/footer_logo.jpg" alt="" class="fL">
+            <p class="fR fS12">备案号:湘ICP备05006292号 Designed by <a href="#">wanhu</a> </p>
+        </div>
+        <ul class="Links fL">
+            <li class="fL">
+                <a href="#">法律声明 ></a>
+            </li>
+            <li class="fL">
+                <a href="#">网站地图 ></a>
+            </li>
+            <li class="fL">
+                <a href="#">联系我们 ></a>
+            </li>
+            <li class="fL">
+                <a href="#">友情链接 ></a>
+            </li>
+        </ul>
+        <div class="conac fL"></div>
+
+    </div>
+    <!-- 底部结束 -->
+</body>
+
+</html>

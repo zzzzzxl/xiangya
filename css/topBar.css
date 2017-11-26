@@ -1,0 +1,91 @@
+.topBar {
+  padding: 0 14%;
+  width: 72%;
+  height: 166px;
+  background: url(../img/top_bg.jpg) repeat-x 0 0;
+}
+.topBar a {
+  color: #ffffff;
+}
+.topBar a:hover {
+  text-decoration: underline;
+}
+.topBar .topBox {
+  width: 100%;
+  height: 112px;
+}
+.topBar .topBox #logo {
+  display: block;
+  width: 430px;
+  height: 112px;
+  background: url(../img/logo.jpg) no-repeat 0 0;
+  text-indent: -999em;
+}
+.topBar .topBox .searBox {
+  padding-top: 30px;
+  width: 380px;
+}
+.topBar .topBox .searBox .sear {
+  margin-top: 25px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  background: url(../img/input.jpg) no-repeat 0 0;
+  text-indent: 5px;
+  line-height: 25px;
+}
+.topBar .topBox .searBox .searBtn {
+  margin-top: 25px;
+  border: none;
+  width: 32px;
+  height: 25px;
+  background: url(../img/search.jpg) no-repeat 0 0;
+}
+.topBar .topBox .searBox .advSearBtn {
+  margin: 26px 5px;
+  border: none;
+  width: 62px;
+  height: 22px;
+  background: url(../img/btn2.jpg) no-repeat 0 0;
+  text-indent: -999em;
+}
+.topBar .topBox .searBox .aUl {
+  padding-top: 10px;
+}
+.topBar .topBox .searBox .aUl a {
+  margin: 4px;
+}
+.topBar .nav .navBox {
+  width: 100%;
+  height: 54px;
+  line-height: 54px;
+  text-indent: 1em;
+}
+.topBar .nav .navBox li {
+  position: relative;
+  width: 12.5%;
+  background: url(../img/nav.jpg) no-repeat 0 0;
+}
+.topBar .nav .navBox li:hover {
+  position: relative;
+  top: 2px;
+}
+.topBar .nav .navBox li a:hover {
+  color: #48326a;
+}
+.topBar .nav .navBox .pulldown {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 54px;
+  z-index: 9;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.topBar .nav .navBox .pulldown a {
+  width: 100%;
+  height: 24px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #666666;
+}

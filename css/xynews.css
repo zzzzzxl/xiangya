@@ -1,0 +1,312 @@
+.topBar {
+  padding: 0 14%;
+  width: 72%;
+  height: 166px;
+  background: url(../img/top_bg.jpg) repeat-x 0 0;
+}
+.topBar a {
+  color: #ffffff;
+}
+.topBar a:hover {
+  text-decoration: underline;
+}
+.topBar #logo {
+  display: block;
+  width: 510px;
+  height: 112px;
+  background: url(../img/n_logo.jpg) no-repeat 0 0;
+  text-indent: -999em;
+}
+.topBar .searBox {
+  padding-top: 30px;
+  width: 380px;
+}
+.topBar .searBox .sear {
+  margin-top: 25px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  background: url(../img/input.jpg) no-repeat 0 0;
+  text-indent: 5px;
+  line-height: 25px;
+}
+.topBar .searBox .searBtn {
+  margin-top: 25px;
+  border: none;
+  width: 32px;
+  height: 25px;
+  background: url(../img/search.jpg) no-repeat 0 0;
+}
+.topBar .searBox .advSearBtn {
+  margin: 26px 5px;
+  border: none;
+  width: 62px;
+  height: 22px;
+  background: url(../img/btn2.jpg) no-repeat 0 0;
+  text-indent: -999em;
+}
+.topBar .searBox .aUl {
+  padding-top: 10px;
+}
+.topBar .searBox .aUl a {
+  margin: 3px;
+}
+.topBar .nav {
+  width: 100%;
+  line-height: 54px;
+  text-indent: 0.5em;
+}
+.topBar .nav li {
+  width: 8.33333333%;
+  background: url(../img/nav_line.jpg) no-repeat 3px 7px;
+}
+.topBar .nav li a:hover {
+  color: #48326a;
+}
+.topBar .nav li:hover {
+  position: relative;
+  top: 2px;
+}
+.topBar .nav .pulldown {
+  display: none;
+  width: 12.5%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.topBar .nav .pulldown a {
+  width: 100%;
+  height: 20px;
+}
+#newsPicBar {
+  position: relative;
+  margin: 0 14%;
+  padding-top: 10px;
+  background-color: #c4d6e9;
+}
+#newsPicBar .bigNewsPic {
+  width: 64%;
+}
+#newsPicBar .bigNewsPic img {
+  display: block;
+  width: 100%;
+}
+#newsPicBar .title {
+  width: 36%;
+  height: 17px;
+  background: url(../img/title_news.gif) no-repeat 280px 0;
+}
+#newsPicBar ul {
+  width: 36%;
+}
+#newsPicBar ul li {
+  padding-bottom: 3px;
+  background-color: #ffffff;
+}
+#newsPicBar ul li a {
+  display: block;
+  width: 100%;
+  background-color: #e6f0fa;
+}
+#newsPicBar ul li a p {
+  padding: 11px 5%;
+  width: 60%;
+  line-height: 24px;
+  color: #666666;
+}
+#newsPicBar ul li a img {
+  margin: 5px 5px 0 0;
+  width: 25%;
+}
+#newsPicBar ul li a img:hover {
+  width: 24%;
+  border: 1px solid #ff0000;
+}
+#newsPicBar ul li a:hover {
+  position: relative;
+  right: 10px;
+  z-index: 1;
+}
+#newsPicBar ul li a:hover p {
+  color: #183b7b;
+}
+.main {
+  margin: 0 14% 30px 14%;
+}
+.main .left {
+  width: 64%;
+}
+.main .left .newsSearBar {
+  width: 100%;
+}
+.main .left .newsSearBar button {
+  margin-top: 6px;
+  width: 85px;
+  height: 30px;
+}
+.main .left .newsSearBar button.newsBtn {
+  background: url(../img/btn_news.jpg) no-repeat -2px -1px;
+}
+.main .left .newsSearBar button.contriBtn {
+  background: url(../img/btn_news2.jpg) no-repeat -2px -1px;
+}
+.main .left .newsSearBar select {
+  margin: 12px 10px;
+  width: 60px;
+}
+.main .left .newsSearBar input {
+  margin: 6px 10px;
+  border: 1px solid #333333;
+  height: 28px;
+  background-color: #efefef;
+}
+.main .left dt {
+  border-bottom: 3px solid #c6d4e8;
+  height: 32px;
+}
+.main .left dt a.title {
+  font-size: 20px;
+  line-height: 32px;
+  color: #54585a;
+}
+.main .left dt a.title:hover {
+  color: #13326a;
+}
+.main .left dt .more {
+  color: #000000;
+}
+.main .left dd {
+  padding: 20px 5px 0 0;
+  width: 95%;
+}
+.main .left dd img {
+  margin-right: 10%;
+  margin-bottom: 30px;
+  width: 30%;
+}
+.main .left dd .title {
+  font-size: 18px;
+  color: #44464a;
+}
+.main .left dd a.more {
+  display: block;
+  margin-top: 10px;
+  padding: 2px 10px;
+  background-color: #171717;
+  color: #ffffff;
+}
+.main .left dd a.more:hover {
+  background-color: #13326a;
+}
+.main .left .employee,
+.main .left .patient {
+  padding-bottom: 30px;
+  width: 45%;
+}
+.main .left .employee dd,
+.main .left .patient dd {
+  padding-top: 5px;
+  height: 20px;
+}
+.main .left .employee dd a,
+.main .left .patient dd a {
+  color: #444444;
+}
+.main .left .employee dd a:hover,
+.main .left .patient dd a:hover {
+  color: #284a82;
+}
+.main .left .picNews {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 174px;
+}
+.main .left .picNews .sliderBox {
+  position: relative;
+  width: 3000px;
+  height: 142px;
+}
+.main .left .picNews .sliderBox dd {
+  margin: 1px;
+  border: 1px solid #cccccc;
+  padding: 1px;
+  width: 182px;
+  height: 142px;
+}
+.main .left .picNews .sliderBox dd img {
+  width: 180px;
+  height: 140px;
+}
+.main .left .picNews span {
+  position: absolute;
+  z-index: 9;
+}
+.main .left .picNews span.leftBtn {
+  left: 0;
+}
+.main .left .picNews span.rightBtn {
+  left: 578px;
+}
+.main .right {
+  padding: 0 5%;
+  background-color: #f3f3f3;
+  width: 25%;
+}
+.main .right li {
+  margin-top: 10px;
+}
+.main .right li dt {
+  margin-bottom: 5px;
+  border-bottom: 3px solid #dedede;
+  font-size: 20px;
+  line-height: 32px;
+}
+.main .right li dt .fL {
+  color: #0072cf;
+}
+.main .right li dt .more {
+  line-height: 32px;
+  color: #000000;
+}
+.main .right li #dianziyuanbao {
+  margin: 10px 20px 10px 0;
+  width: 45%;
+}
+.main .right li dd {
+  padding: 3px 0;
+}
+.main .right li #jingcaizhuanti {
+  margin: 5px auto;
+  width: 100%;
+  height: 100px;
+}
+.main .right .guide dd {
+  width: 50%;
+}
+.main .right .guide dd .guidePic {
+  display: block;
+  margin: 3px 5px;
+  width: 32px;
+  height: 32px;
+}
+.main .right .guide dd .guidePic#guidePic1 {
+  background: url(../img/icon_service1.gif) no-repeat 0 0;
+}
+.main .right .guide dd .guidePic#guidePic2 {
+  background: url(../img/icon_service2.gif) no-repeat 0 0;
+}
+.main .right .guide dd .guidePic#guidePic3 {
+  background: url(../img/icon_service3.gif) no-repeat 0 0;
+}
+.main .right .guide dd .guidePic#guidePic4 {
+  background: url(../img/icon_service4.gif) no-repeat 0 0;
+}
+.main .right .guide dd .guidePic#guidePic5 {
+  background: url(../img/icon_service5.gif) no-repeat 0 0;
+}
+.main .right .guide dd .guidePic#guidePic6 {
+  background: url(../img/icon_service6.gif) no-repeat 0 0;
+}
+.main .right .guide dd a {
+  font-size: 14px;
+  line-height: 32px;
+  color: #0072cf;
+}

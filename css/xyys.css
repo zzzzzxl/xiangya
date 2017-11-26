@@ -1,0 +1,162 @@
+.topBar {
+  padding: 0 12%;
+  background-color: #54191b;
+}
+.topBar a {
+  color: #ffffff;
+}
+.main {
+  padding-bottom: 30px;
+  background: url(../img/bg_body.gif) repeat 0 0;
+}
+.main .column {
+  padding: 0 12%;
+  background: url(../img/bg_top.gif) no-repeat center 0;
+}
+.main .column .logo {
+  display: block;
+  width: 223px;
+  height: 445px;
+}
+.main .column .nav ul.nav {
+  width: 770px;
+  height: 140px;
+  background: url(../img/ysnav.jpg) no-repeat 0 0;
+}
+.main .column .nav ul.nav li {
+  width: 12.5%;
+}
+.main .column .nav ul.nav li a {
+  display: block;
+  width: 100%;
+  height: 160px;
+}
+.main .column .nav ul.nav li a.nav1:hover {
+  background: url(../img/ysnav.jpg) no-repeat 0px -163px;
+}
+.main .column .nav ul.nav li a.nav2:hover {
+  background: url(../img/ysnav.jpg) no-repeat -97px -163px;
+}
+.main .column .nav ul.nav li a.nav3:hover {
+  background: url(../img/ysnav.jpg) no-repeat -193px -163px;
+}
+.main .column .nav ul.nav li a.nav4:hover {
+  background: url(../img/ysnav.jpg) no-repeat -285px -163px;
+}
+.main .column .nav ul.nav li a.nav5:hover {
+  background: url(../img/ysnav.jpg) no-repeat -380px -163px;
+}
+.main .column .nav ul.nav li a.nav6:hover {
+  background: url(../img/ysnav.jpg) no-repeat -475px -163px;
+}
+.main .column .nav ul.nav li a.nav7:hover {
+  background: url(../img/ysnav.jpg) no-repeat -572.5px -163px;
+}
+.main .column .nav ul.nav li a.nav8:hover {
+  background: url(../img/ysnav.jpg) no-repeat -670px -163px;
+}
+.main .column .sliders {
+  padding: 10px;
+  width: 770px;
+  height: 275px;
+  background: url(../img/bg_banner.gif) no-repeat 0 0;
+}
+.main .column .sliders .picBig {
+  width: 82%;
+}
+.main .column .sliders ul {
+  width: 16%;
+}
+.main .column .sliders ul li {
+  width: 100%;
+}
+.main .column .sliders ul li .picSmall {
+  margin-right: 15%;
+  width: 85%;
+  height: 80px;
+}
+.main .content {
+  margin: 0 12%;
+  background: url(../img/bg_main.gif) repeat-y 0 0;
+}
+.main .content .leftBar {
+  margin-left: 5%;
+  width: 65%;
+}
+.main .content .leftBar div.fL {
+  width: 40%;
+}
+.main .content .leftBar div.fR {
+  width: 55%;
+}
+.main .content .leftBar dl {
+  width: 100%;
+}
+.main .content .leftBar dt {
+  margin-bottom: 5px;
+  border-bottom: 2px solid #c9c6b8;
+  background: url(../img/icon1.jpg) no-repeat 0 2px;
+}
+.main .content .leftBar dt .title {
+  font-size: 18px;
+  text-indent: 30px;
+  color: #853b00;
+}
+.main .content .leftBar dt .more {
+  text-indent: 10px;
+  background: url(../img/arrow1.gif) no-repeat 0 6px;
+  color: #ad7a82;
+}
+.main .content .leftBar dd {
+  margin: 5px 0;
+  width: 100%;
+  text-indent: 2em;
+}
+.main .content .leftBar dd.detail img {
+  margin: 15px 10px 20px 0;
+  width: 40%;
+}
+.main .content .leftBar dd.detail a {
+  font-size: 14px;
+  line-height: 28px;
+}
+.main .content .leftBar dd.detail p {
+  line-height: 20px;
+}
+.main .content .leftBar dd a {
+  color: #585858;
+}
+.main .content .leftBar dd a:hover {
+  color: #cc0000;
+  text-decoration: underline;
+}
+.main .content .rightBar {
+  margin-right: -60px;
+  width: 30%;
+  height: 500px;
+  background: url(../img/bg_right.jpg) no-repeat 0 0;
+}
+.main .content .rightBar img {
+  position: relative;
+  left: 20px;
+}
+.footer {
+  padding: 0 12%;
+  height: 75px;
+  background: url(../img/bg_bottom.gif) repeat-x 0 0;
+}
+.footer span {
+  line-height: 75px;
+  color: #b19c89;
+}
+.footer span a {
+  color: #b19c89;
+}
+.footer span a:hover {
+  color: #ffcc00;
+  text-decoration: underline;
+}
+.footer .conac {
+  margin-top: 7.5px;
+  height: 60px;
+}

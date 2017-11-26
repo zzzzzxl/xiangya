@@ -1,0 +1,137 @@
+.topBar {
+  padding: 0 50px;
+  height: 63px;
+  line-height: 63px;
+}
+.topBar .nav {
+  border-right: 1px solid #cccccc;
+}
+.topBar .nav li a {
+  display: block;
+  padding: 0 5px;
+  color: #666666;
+}
+.topBar .nav li a:hover {
+  background-color: #c8142d;
+  color: #ffffff;
+}
+.topBar .searBar input {
+  margin: 23px 5px;
+  border: 1px solid #999999;
+  border-radius: 10px;
+  background-color: #e1e1e1;
+  width: 150px;
+  text-indent: 10px;
+}
+.topBar .searBar a:hover {
+  color: #ff2424;
+}
+.sliders li {
+  width: 100%;
+  height: 450px;
+}
+.sliders li a {
+  display: block;
+}
+.sliders li.slider1 {
+  background: url(../img/01.jpg) no-repeat center 0;
+}
+.sliders li.slider2 {
+  background: url(../img/02.jpg) no-repeat center 0;
+}
+.sliders li.slider3 {
+  background: url(../img/03.jpg) no-repeat center 0;
+}
+.intro {
+  padding: 20px 4%;
+  width: 92%;
+}
+.intro .intro1 {
+  padding-right: 3%;
+  width: 42%;
+  text-indent: 2em;
+}
+.intro .intro1 a h3 {
+  color: #505960;
+  margin: 20px 0;
+}
+.intro .intro1 a p {
+  font-size: 13px;
+  color: #858585;
+}
+.intro .news {
+  width: 35%;
+}
+.intro .news dl {
+  width: 100%;
+}
+.intro .news dl dt {
+  line-height: 60px;
+}
+.intro .news dl dt span {
+  display: block;
+  margin-right: 20px;
+  color: #747474;
+}
+.intro .news dl .xian {
+  width: 100%;
+  border: 1px solid #dedfe2;
+}
+.intro .news dl dd a {
+  color: #858585;
+}
+.intro .tel {
+  margin-left: 30px;
+}
+.banner {
+  position: relative;
+  margin: 0 4%;
+  width: 92%;
+  height: 181px;
+}
+.banner a {
+  position: absolute;
+  display: block;
+  width: 540px;
+  height: 180px;
+}
+.banner .b2 {
+  right: 270px;
+  z-index: 1;
+}
+.banner .b3 {
+  right: 0;
+  z-index: 2;
+}
+.banner .b4 {
+  right: -270px;
+  z-index: 3;
+}
+.footer {
+  padding: 0 4%;
+  width: 92%;
+}
+.footer .wrap {
+  padding: 11px 0 10px 0;
+  width: 50%;
+  line-height: 40px;
+  color: #232357;
+}
+.footer .wrap a {
+  display: block;
+  margin-left: 5px;
+  padding: 0 10px 0 50px;
+  color: #232357;
+}
+.footer .wrap a:hover {
+  color: #ec3a30;
+}
+.footer .wrap .a1 {
+  background: url(../img/refer_icon_1.png) no-repeat 0 0;
+}
+.footer .wrap .a2 {
+  background: url(../img/refer_icon_2.png) no-repeat 0 0;
+}
+.footer .wrap .a3 {
+  background: url(../img/refer_icon_life.png) no-repeat 0 0;
+}

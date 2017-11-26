@@ -1,0 +1,535 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fL {
+    float: left;
+}
+
+.fR {
+    float: right;
+}
+
+.oH {
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fS12 {
+    font-size: 12px;
+}
+
+.fWB {
+    font-weight: 700;
+}
+
+.tAC {
+    text-align: center;
+}
+
+.topBar {
+    padding: 0 14%;
+    width: 72%;
+    height: 166px;
+    background: url(../img/top_bg.jpg) repeat-x 0 0;
+}
+
+.topBar a {
+    color: #ffffff;
+}
+
+.topBar a:hover {
+    text-decoration: underline;
+}
+
+.topBar #logo {
+    display: block;
+    width: 430px;
+    height: 112px;
+    background: url(../img/logo.jpg) no-repeat 0 0;
+    text-indent: -999em;
+}
+
+.topBar .searBox {
+    padding-top: 30px;
+    width: 380px;
+}
+
+.topBar .searBox .sear {
+    margin-top: 25px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background: url(../img/input.jpg) no-repeat 0 0;
+    text-indent: 5px;
+    line-height: 25px;
+}
+
+.topBar .searBox .searBtn {
+    margin-top: 25px;
+    border: none;
+    width: 32px;
+    height: 25px;
+    background: url(../img/search.jpg) no-repeat 0 0;
+}
+
+.topBar .searBox .advSearBtn {
+    margin: 26px 5px;
+    border: none;
+    width: 62px;
+    height: 22px;
+    background: url(../img/btn2.jpg) no-repeat 0 0;
+    text-indent: -999em;
+}
+
+.topBar .searBox .aUl {
+    padding-top: 10px;
+}
+
+.topBar .searBox .aUl a {
+    margin: 3px;
+}
+
+.topBar .nav {
+    width: 100%;
+    line-height: 54px;
+    text-indent: 1em;
+}
+
+.topBar .nav li {
+    width: 12.5%;
+    background: url(../img/nav.jpg) no-repeat 0 0;
+}
+
+.topBar .nav li:hover {
+    position: relative;
+    top: 2px;
+}
+
+.topBar .nav .pulldown {
+    display: none;
+    width: 12.5%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.topBar .nav .pulldown a {
+    width: 100%;
+    height: 20px;
+}
+
+.sliders {
+    position: relative;
+    margin: 13px auto;
+    border-top: 3px solid #cbdff3;
+    padding-top: 7px;
+    width: 72%;
+    height: 432px;
+}
+
+.sliders img {
+    display: block;
+    width: 100%;
+}
+
+.sliders .intro {
+    width: 100%;
+    line-height: 46px;
+}
+
+.sliders .intro .title {
+    width: 10%;
+    background-color: #3967c1;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.sliders .intro .cont {
+    width: 90%;
+    background-color: #d1d3d4;
+    text-indent: 2em;
+    color: #13326a;
+}
+
+.sliders .btn {
+    position: absolute;
+    width: 24px;
+    height: 34px;
+}
+
+.sliders #btnToNext {
+    position: absolute;
+    right: 10px;
+    bottom: 7px;
+    background: url(../img/icon.png) no-repeat -10px -95px;
+}
+
+.sliders #btnToLast {
+    position: absolute;
+    right: 100px;
+    bottom: 7px;
+    background: url(../img/icon.png) no-repeat 0 2px;
+}
+
+.sliders>div {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.main {
+    margin: 0 14%;
+}
+
+.main .newsBar {
+    padding-top: 30px;
+    width: 64%;
+}
+
+.main .newsBar div.newsBox {
+    margin-bottom: 50px;
+}
+
+.main .newsBar div.title {
+    border-bottom: 3px solid #c6d4e8;
+    height: 32px;
+}
+
+.main .newsBar div.title a.title {
+    font-size: 20px;
+    line-height: 32px;
+    color: #54585a;
+}
+
+.main .newsBar div.title a.title:hover {
+    color: #13326a;
+}
+
+.main .newsBar a.more {
+    display: block;
+    margin-top: 10px;
+    padding: 2px 10px;
+    background-color: #171717;
+    color: #ffffff;
+}
+
+.main .newsBar a.more:hover {
+    background-color: #13326a;
+}
+
+.main .newsBar .cont {
+    padding: 30px 0;
+}
+
+.main .newsBar .cont img {
+    width: 40%;
+    margin-right: 20px;
+}
+
+.main .newsBar .cont .newsTitle {
+    margin-bottom: 30px;
+    color: #44464a;
+}
+
+.main .newsBar .cont .newsTitle:hover {
+    text-decoration: underline;
+}
+
+.main .newsBar .cont .newsCont {
+    display: block;
+    margin-top: 15px;
+    line-height: 22px;
+    text-indent: 2em;
+}
+
+.main .newsBar .cont .more {
+    margin-top: 20px;
+}
+
+.main .newsBar .otherNews {
+    margin-bottom: 20px;
+}
+
+.main .newsBar .otherNews img {
+    margin-top: 10px;
+    width: 48%;
+}
+
+.main .newsBar .info div.title a.title {
+    display: block;
+    padding-right: 20px;
+}
+
+.main .newsBar .info div.title .withAct:hover {
+    border-bottom: 3px solid #003da5;
+}
+
+.main .newsBar .info li {
+    position: relative;
+    margin: 20px 0;
+    padding-right: 5px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.main .newsBar .info li .notiTitle {
+    color: #444444;
+}
+
+.main .newsBar .info li .notiTitle:hover {
+    color: #cc0000;
+    text-decoration: underline;
+}
+
+.main .newsBar .info .date {
+    margin-right: 15px;
+    width: 45px;
+    height: 46px;
+    background: url(../img/date.jpg) no-repeat 0 0;
+}
+
+.main .newsBar .info .date .day {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #284a82;
+    font-family: "微软雅黑", "幼圆";
+}
+
+.main .newsBar .info .date .month {
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #fff;
+}
+
+.main .newsBar .info .time {
+    font-size: 12px;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.main .newsBar .info .notice {
+    width: 48%;
+}
+
+.main .serveBar {
+    width: 33%;
+    background-color: #f3f3f3;
+}
+
+.main .serveBar .column {
+    padding: 20px 20px;
+    width: 90%;
+}
+
+.main .serveBar .column li {
+    margin: 0 6%;
+    border-bottom: 3px solid #e5e5e5;
+    width: 88%;
+    background: url(../img/arrow.jpg) no-repeat 240px 18px;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.main .serveBar .column li a {
+    color: #0072d5;
+}
+
+.main .serveBar .column li:hover {
+    background-color: #eeeeee;
+}
+
+.main .serveBar .guide {
+    margin: 20px 5%;
+    width: 90%;
+    background-color: #ffffff;
+}
+
+.main .serveBar .guide ul .title {
+    display: block;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    color: #54585a;
+}
+
+.main .serveBar .guide ul .title:hover {
+    color: #13326a;
+}
+
+.main .serveBar .guide ul li {
+    margin: 10px 0;
+    padding: 2px 5%;
+    width: 40%;
+}
+
+.main .serveBar .guide ul li .pic {
+    display: block;
+    margin-right: 5px;
+    width: 32px;
+    height: 32px;
+}
+
+.main .serveBar .guide ul li .pic.pic1 {
+    background: url(../img/icon_service1.gif) no-repeat 0 0;
+}
+
+.main .serveBar .guide ul li .pic.pic2 {
+    background: url(../img/icon_service2.gif) no-repeat 0 0;
+}
+
+.main .serveBar .guide ul li .pic.pic3 {
+    background: url(../img/icon_service3.gif) no-repeat 0 0;
+}
+
+.main .serveBar .guide ul li .pic.pic4 {
+    background: url(../img/icon_service4.gif) no-repeat 0 0;
+}
+
+.main .serveBar .guide ul li .pic.pic5 {
+    background: url(../img/icon_service5.gif) no-repeat 0 0;
+}
+
+.main .serveBar .guide ul li .pic.pic6 {
+    background: url(../img/icon_service6.gif) no-repeat 0 0;
+}
+
+.main .serveBar .guide .serName {
+    font-size: 14px;
+    line-height: 32px;
+    text-indent: 5px;
+    color: #0072CF;
+    font-family: "微软雅黑";
+}
+
+.main .serveBar .guide .serName:hover {
+    text-decoration: underline;
+}
+
+.main .serveBar .guide .contact {
+    width: 90%;
+}
+
+.main .serveBar .guide .contact dt {
+    margin: 20px 0 10px 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.main .serveBar .guide .contact dd {
+    margin: 10px 0;
+    padding-left: 10px;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.main .serveBar .guide .contact dt,
+.main .serveBar .guide .contact dd {
+    width: 100%;
+    height: 32px;
+}
+
+.main .serveBar .guide .contact dt .atten,
+.main .serveBar .guide .contact dd .atten {
+    font-weight: 700;
+    color: #0072cf;
+}
+
+.main .serveBar .guide .contact dt .pic,
+.main .serveBar .guide .contact dd .pic {
+    width: 25px;
+    height: 25px;
+}
+
+.main .serveBar .comSite {
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.main .serveBar .comSite a {
+    color: #009ade;
+}
+
+.main .serveBar .comSite a:hover {
+    text-decoration: underline;
+}
+
+.main .serveBar .comSite dt {
+    margin: 20px 5% 10px 5%;
+    border-bottom: 3px solid #e5e5e5;
+    width: 90%;
+}
+
+.main .serveBar .comSite dt .title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #57585c;
+}
+
+.main .serveBar .comSite dd {
+    margin: 0 5%;
+    border-bottom: 1px dashed #c0c0c0;
+    width: 90%;
+    line-height: 40px;
+}
+
+.main .serveBar .comSite dd span {
+    width: 50%;
+}
+
+.main .serveBar .comSite .longSite {
+    width: 90%;
+}
+
+.footer {
+    margin-top: 30px;
+    padding: 0 14%;
+    width: 82%;
+    height: 130px;
+    background: url(../img/footer.jpg) repeat-x 0 0;
+}
+
+.footer a {
+    color: #ffffff;
+}
+
+.footer .record {
+    width: 300px;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.footer .record a:hover {
+    text-decoration: underline;
+}
+
+.footer .Links {
+    margin-top: 30px;
+    padding-left: 80px;
+    width: 300px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.footer .Links li {
+    width: 150px;
+}
+
+.footer .conac {
+    margin-top: 24px;
+    width: 80px;
+    height: 80px;
+    background: url(../img/blue.png) no-repeat 0 0;
+}
